@@ -1,0 +1,319 @@
+#NavBar{
+    padding: 10px 10px;
+}
+
+.navbar-brand{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    color: red;
+}
+
+#submit{
+    border-color: red;
+    color: red;
+}
+#submit:hover{
+    background-color: red;
+    color: white;
+}
+:root {
+    --red: hsl(0, 78%, 62%);
+    --cyan: hsl(180, 62%, 55%);
+    --orange: hsl(34, 97%, 64%);
+    --blue: hsl(212, 86%, 64%);
+    --varyDarkBlue: hsl(234, 12%, 34%);
+    --grayishBlue: hsl(229, 6%, 66%);
+    --veryLightGray: hsl(0, 0%, 98%);
+    --weight1: 200;
+    --weight2: 400;
+    --weight3: 600;
+}
+
+body {
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--veryLightGray);
+    background-image: url(images/background.jpg);
+    background-size: cover;
+}
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+h1:first-of-type {
+    font-weight: var(--weight1);
+    color: var(--varyDarkBlue);
+
+}
+
+h1:last-of-type {
+    color: var(--varyDarkBlue);
+}
+
+@media (max-width: 400px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+}
+
+.header {
+    text-align: center;
+    line-height: 0.8;
+    margin-bottom: 50px;
+    margin-top: 100px;
+}
+
+.header p {
+    margin: 0 auto;
+    line-height: 2;
+    color: var(--grayishBlue);
+}
+
+
+.box p {
+    color: var(--grayishBlue);
+}
+
+.box {
+    border-radius: 5px;
+    box-shadow: 0px 30px 20px -20px rgba(168, 202, 244, 0.872);
+    padding: 30px;
+    margin: 20px;  
+}
+
+img {
+    float: right;
+}
+
+@media (max-width: 450px) {
+    .box {
+        height: 200px;
+    }
+}
+
+@media (max-width: 950px) and (min-width: 450px) {
+    .box {
+        text-align: center;
+        height: 180px;
+    }
+}
+
+.cyan {
+    border-top: 3px solid var(--cyan);
+}
+.red {
+    border-top: 3px solid var(--red);
+}
+.blue {
+    border-top: 3px solid var(--blue);
+}
+.orange {
+    border-top: 3px solid var(--orange);
+}
+
+h2 {
+    color: var(--varyDarkBlue);
+    font-weight: var(--weight3);
+}
+
+
+@media (min-width: 950px) {
+    .row1-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .row2-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .box-down {
+        position: relative;
+        top: 150px;
+    }
+    .box {
+        width: 20%;
+     
+    }
+    .header p {
+        width: 30%;
+    }
+    
+}
+
+.one{
+    font-size: 40px;
+}
+
+.box{
+    height: 230px;
+    background: white;
+}
+
+.box img{
+    width: 70px;
+}
+
+.red{
+    /* background-image: url(images/banglore.jpg); */
+    background-size: cover;
+    
+}
+
+#cityName{
+    font-size: 50px;
+    font-weight: 500; 
+    font-weight: var(--weight3);
+    border-bottom: 2px solid black;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.row1-container{
+    height: 50vh;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    height: 6.5vh;
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 12px;
+
+}
+
+.footer span{
+    color: red;
+    font-weight: 600;
+}
+
+.about{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.about1{
+    text-align: center;
+    font-size: 15px;
+    background: linear-gradient(130deg,rgb(236, 96, 9),rgb(79, 52, 215));
+    /* width: 1200px; */
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 0px 10px;
+    padding-top: 12px;
+    color: white;
+}
+
+
+
+
+@media only screen and (max-width: 600px){
+
+    .about{
+        margin: 10px 10px;
+    }
+
+    body{
+        background-image: url(images/background.jpg);
+        background-size: cover;
+        width: 100%;
+    }
+
+    .box h2{
+        font-size: 20px;
+    }
+
+    .box p{
+        font-size: 15px;
+    }
+
+    .red{
+        margin-top: 10px;
+        position: absolute;
+        top: 250px;
+        height: 150px;
+        width: 85%;
+        background-image: url(images/banglore.jpg);
+        margin-left: 23px;
+    }
+
+    #cityName{
+        font-size: 40px;
+        font-weight: var(--weight3);
+        font-family: 'Poppins', sans-serif;
+        border-bottom: 2px solid transparent;
+    }
+
+    .red img{
+        width: 50px;
+        position: absolute;
+        right: 10px;
+        bottom: 10px;
+    }
+
+    .cyan{
+        position: relative;
+        top: 165px;
+        height: 100px;
+        z-index: 1;
+        width: 85%;
+        margin-left: 23px;
+    }
+
+    .cyan img{
+        width: 50px;
+        position: absolute;
+        right: 10px;
+        bottom: 10px;
+    }
+
+    .blue{
+        position: relative;
+        top: 158px;
+        height: 100px;
+        z-index: 2;
+        width: 85%;
+        margin-left: 23px;
+    }
+
+    .blue img{
+        width: 50px;
+        position: absolute;
+        right: 10px;
+        bottom: 10px;
+    }
+
+    .orange{
+        position: relative;
+        top: 40px;
+        height: 100px;
+        z-index: 3;
+        width: 85%;
+        margin-left: 23px;
+    }
+
+    .orange img{
+        width: 50px;
+        position: absolute;
+        right: 10px;
+        bottom: 10px;
+    }
+
+    .footer{
+        position: relative;
+        bottom: -30px;
+        width: 100%;
+        padding-bottom: 40px;
+    
+    }
+
+}
