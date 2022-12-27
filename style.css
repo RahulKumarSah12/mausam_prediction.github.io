@@ -267,7 +267,7 @@ h2 {
     .cyan{
         position: relative;
         bottom: -160px;
-        height: 100px;
+        height: 120px;
         z-index: 1;
         width: 85%;
         margin-left: 23px;
@@ -283,7 +283,7 @@ h2 {
     .blue{
         position: relative;
         bottom: -160px;
-        height: 100px;
+        height: 120px;
         z-index: 2;
         width: 85%;
         margin-left: 23px;
@@ -299,7 +299,7 @@ h2 {
     .orange{
         position: relative;
         bottom: -30px;
-        height: 100px;
+        height: 120px;
         z-index: 3;
         width: 85%;
         margin-left: 23px;
