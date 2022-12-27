@@ -240,10 +240,14 @@ h2 {
         margin-top: 10px;
         position: absolute;
         top: 250px;
-        height: 150px;
+        height: 160px;
         width: 85%;
         background-image: url(images/banglore.jpg);
         margin-left: 23px;
+    }
+
+    #skyscraper{
+        display: none;
     }
 
     #cityName{
@@ -262,7 +266,7 @@ h2 {
 
     .cyan{
         position: relative;
-        top: 165px;
+        top: 175px;
         height: 100px;
         z-index: 1;
         width: 85%;
@@ -278,7 +282,7 @@ h2 {
 
     .blue{
         position: relative;
-        top: 158px;
+        top: 170px;
         height: 100px;
         z-index: 2;
         width: 85%;
