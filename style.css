@@ -246,7 +246,7 @@ h2 {
         margin-left: 23px;
     }
 
-    #skyscraper{
+    .red img{
         display: none;
     }
 
@@ -257,16 +257,9 @@ h2 {
         border-bottom: 2px solid transparent;
     }
 
-    .red img{
-        width: 50px;
-        position: absolute;
-        right: 10px;
-        bottom: 10px;
-    }
-
     .cyan{
         position: relative;
-        top: 175px;
+        top: 185px;
         height: 100px;
         z-index: 1;
         width: 85%;
@@ -282,7 +275,7 @@ h2 {
 
     .blue{
         position: relative;
-        top: 170px;
+        top: 190px;
         height: 100px;
         z-index: 2;
         width: 85%;
